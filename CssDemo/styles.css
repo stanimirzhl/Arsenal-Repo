@@ -1,0 +1,124 @@
+h1{
+    font-size: 32px;
+    color: blue;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-1{
+    color: red;
+}
+
+.p_2{
+    font-size: 20px;
+    line-height: 1.5px;
+}
+
+.p-3{
+    text-transform: uppercase;
+}
+
+.p-4{
+    letter-spacing: 2px;
+}
+
+.p-5{
+    font-style: italic;
+}
+
+span{
+    background-color: yellow;
+}
+
+.div-1{
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.div-2{
+    margin: 30px;
+    border: 2px solid black;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+.u-li-1{
+    padding: 10px;
+}
+
+.u-li-2{
+    list-style-type: square;
+}
+
+.u-li-3{
+    font-size: 18px;
+}
+
+.o-li-1{
+    margin-left: 20px;
+}
+
+.o-li-2{
+    font-weight: bold;
+}
+
+.o-li-3{
+    color: purple;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.th-1{
+    background-color: gray;
+}
+
+.th-2{
+    padding: 10px;
+}
+
+.th-3{
+    border: 1px solid black;
+}
+
+.th-4{
+    text-align: center;
+}
+
+section{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+article{
+    margin: 40px auto;
+    text-align: justify;
+}
+
+form{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input{
+    border: 1px solid blue;
+}
+
+footer{
+    font-size: 14px;
+    text-align: center;
+}
+
