@@ -1,0 +1,38 @@
+form {
+    background-color: #eae9e9;
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-options {
+    display: table-row;
+}
+
+label,
+input,
+select {
+    display: table-cell;
+    margin: 5px;
+    padding: 5px;
+}
+
+input, select{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+label {
+    padding-right: 5px;
+}
+
+button {
+    display: table-cell;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}

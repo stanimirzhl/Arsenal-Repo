@@ -1,0 +1,25 @@
+p{
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+#red-border{
+    text-align: center;
+    background-color: grey;
+    border: 5px solid red;
+    border-radius: 25px;
+}
+
+#green-border{
+    text-align: center;
+    background-color: grey;
+    border: 5px solid green;
+    border-radius: 25px;
+}
+
+#blue-border{
+    text-align: center;
+    background-color: grey;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
