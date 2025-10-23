@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadacha-4</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Your details</legend>
+
+            <div class="input-options">
+                <label>
+                    Name
+                </label>
+                <input type="text" placeholder="First and last name">
+            </div>
+
+            <div class="input-options">
+                <label>
+                    Email
+                </label>
+                <input type="email" placeholder="example@domain.com" name="email" id="email">
+            </div>
+
+            <div class="input-options">
+                <label>
+                    Phone
+                </label>
+                <input type="tel" placeholder="Eg. +447500000000">
+            </div>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Delivery address
+            </legend>
+
+            <div class="input-options">
+                <label>
+                    Address
+                </label>
+                <textarea></textarea>
+            </div>
+
+            <div class="input-options">
+                <label for="post-code">
+                    Post code
+                </label>
+                <input type="text" name="post-code" id="post-code">
+            </div>
+
+            <div class="input-options">
+                <label>
+                    Country
+                </label>
+                <input type="text">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Card details
+            </legend>
+            <fieldset>
+                <legend>
+                    Card type
+                </legend>
+
+                <div class="card-type-table">
+                    <label><input type="radio" name="card"> VISA</label>
+                    <label><input type="radio" name="card"> AmEx</label>
+                    <label><input type="radio" name="card"> Mastercard</label>
+                </div>
+
+            </fieldset>
+
+            <div class="input-options">
+                <label>
+                    Card number
+                    <input type="text">
+                </label>
+            </div>
+
+            <div class="input-options">
+                <label>
+                    Security code
+                    <input type="text">
+                </label>
+            </div>
+
+            <div class="input-options">
+                <label>
+                    Name on card
+                    <input type="text" placeholder="Exact name as on the card">
+                </label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">
+                Buy it!
+            </button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

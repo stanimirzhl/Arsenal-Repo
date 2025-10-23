@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadacha-3</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Your details:</legend>
+            <ol>
+                <li>
+                    <label>
+                        Name
+                        <input type="text" placeholder="First and last name">
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        Email
+                        <input type="email" placeholder="example@domain.com">
+                    </label>
+                </li>
+
+                <li>
+                    <label>
+                        Phone
+                        <input type="tel" placeholder="Eg. +447500000000">
+                    </label>
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Delivery address
+            </legend>
+
+            <ol>
+                <li>
+                    <label>
+                        Address
+                        <textarea rows="6"></textarea>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Post code
+                        <input type="text">
+                    </label>
+                </li>
+                <li>
+                    Country
+                    <input type="text">
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Card details
+            </legend>
+
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>
+                            Card type
+                        </legend>
+
+                        <ol>
+                            <li>
+                                <input type="radio" name="card">
+                                <label>VISA</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="card">
+                                <label>AmEx</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="card">
+                                <label>Mastercard</label>
+                            </li>
+                        </ol>
+                    </fieldset>
+                </li>
+                <li>
+                    <label>
+                        Card number
+                        <input type="text">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Security code
+                        <input type="text">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Name on card
+                        <input type="text" placeholder="Exact name as on the card">
+                    </label>
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <button type="submit">
+                Buy it!
+            </button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

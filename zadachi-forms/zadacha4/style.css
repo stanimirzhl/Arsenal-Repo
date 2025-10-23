@@ -1,0 +1,65 @@
+html,
+body {
+    background: linear-gradient(to bottom right, white, rgb(200, 200, 236));
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    font-weight: bold;
+}
+
+.input-options {
+    padding: 8px 8px 10px 0px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 50px;
+}
+
+
+fieldset div {
+  margin-bottom: 6px;
+}
+
+.card-type-table label {
+  display: table-row;
+}
+
+.card-type-table input[type="radio"] {
+  display: table-cell;
+  padding-right: 8px;
+  width: auto;
+}
+
+fieldset button{
+    padding: 9px;
+    width: 20%;
+    background-color: #458ce2;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
