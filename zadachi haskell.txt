@@ -1,0 +1,68 @@
+1.main = do 
+    firstName <- getLine
+    lastName <- getLine
+
+    let name = firstName ++" " ++lastName
+
+    putStrLn("Your name is " ++name);
+
+2.main = do 
+    firstNumber <- getLine
+    secondNumber <- getLine
+    
+    let num1 = read firstNumber :: Int
+    
+    let num2 = read secondNumber :: Int
+
+    putStrLn ("Your result is " ++ show (num1 * num2))
+
+3.main = do 
+    firstNumber <- getLine
+    
+    let sideValue = read firstNumber :: Double
+    
+    let area = pi * sideValue ^ 2
+    
+    putStrLn("Area of the circle is " ++ show area)
+
+4.main = do 
+    firstNumber <- getLine
+    
+    let num = read firstNumber :: Int
+    
+    if num `mod` 2 == 0
+      then putStrLn("Number is even")
+    
+    else
+      putStrLn("Number is odd")
+
+5.main = do 
+    firstNumber <- getLine
+    
+    let num = read firstNumber :: Int
+    
+    let result = 
+            if num >= 90
+                then "Otlichen"
+            else if num >= 75 && num < 89
+                then "Mnogo dobur"
+            else if num >= 50 && num <= 74
+                then "Dobur"
+            else 
+                "Slab"
+      
+    putStrLn("Tvoqta ocenka e: " ++result)
+
+6.main = do 
+    firstNumber <- getLine
+    
+    let num = read firstNumber :: Int
+    
+    let result = case () of
+          _ | num `elem` [12, 1, 2]  -> "Zima"
+            | num `elem` [3,4,5]     -> "Prolet"
+            | num `elem` [6,7,8]     -> "Lqto"
+            | num `elem` [9,10,11]   -> "Esen"
+            | otherwise              -> "Nqma takuv sezon"
+      
+    putStrLn ("Sezona e " ++ result)
