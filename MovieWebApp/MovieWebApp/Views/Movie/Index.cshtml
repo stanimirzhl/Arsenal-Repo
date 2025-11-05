@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MovieData.Data.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Всички филми</h1>
+
+<p>
+    <a asp-action="Create" class="text-decoration-none link-success">Създай нов</a>
+</p>
+<div class="container mt-4">
+    <table class="table table-bordered table-hover table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    Заглавие
+                </th>
+                <th>
+                    Директор
+                </th>
+                <th>
+                    Година
+                </th>
+                <th>
+                    Жанр
+                </th>
+                <th>
+                    Бутони за управление
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>
+                        @movie.Title
+                    </td>
+                    <td>
+                        @movie.Director
+                    </td>
+                    <td>
+                        @movie.Year
+                    </td>
+                    <td>
+                        @movie.Genre
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@movie.Int">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@movie.Int">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@movie.Int">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

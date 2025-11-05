@@ -1,0 +1,14 @@
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.AssemblyInfoInputs.cache
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.AssemblyInfo.cs
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.csproj.CoreCompileInputs.cache
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\bin\Debug\net8.0\MovieData.deps.json
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\bin\Debug\net8.0\MovieData.runtimeconfig.json
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\bin\Debug\net8.0\MovieData.dll
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\bin\Debug\net8.0\MovieData.pdb
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.csproj.AssemblyReference.cache
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.dll
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\refint\MovieData.dll
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.pdb
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\MovieData.genruntimeconfig.cache
+C:\Users\Student4\Desktop\MovieWebApp\MovieData\obj\Debug\net8.0\ref\MovieData.dll
