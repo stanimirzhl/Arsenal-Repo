@@ -1,0 +1,114 @@
+﻿@model IEnumerable<EmployeeDepartmentProject.Data.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    body {
+        background-color: steelblue;
+    }
+</style>
+
+<h1>Employees:</h1>
+
+@if (Model.Count() == 0)
+{
+    <div class="row">
+        <div class="col-md-4">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="fw-bold">
+                            Categories
+                        </th>
+                        <th>
+                            <a asp-action="Create" class="btn btn-primary">Add employee</a>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <div class="alert alert-warning">
+        <p>No employees in</p>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-5">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="fw-bold">
+                            Categories
+                        </th>
+                        <th>
+                            <a asp-action="Create" class="btn btn-primary">Add employee</a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.Id)
+                        </th>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.Name)
+                        </th>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.Email)
+                        </th>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.Salary)
+                        </th>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.DateOfBirth)
+                        </th>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.Department.Name)
+                        </th>
+                        <th class="fw-bold">
+                            @Html.DisplayNameFor(model => model.Department.Code)
+                        </th>
+                        <th class="fw-bold">
+                            Actions
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.Id
+                            </td>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @item.Email
+                            </td>
+                            <td>
+                                @item.Salary
+                            </td>
+                            <td>
+                                @item.DateOfBirth.ToString("yyyy-dd-MM")
+                            </td>
+                            <td>
+                                @item.Department.Name
+                            </td>
+                            <td>
+                                @item.Department.Code
+                            </td>
+                            <td class="col-4">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

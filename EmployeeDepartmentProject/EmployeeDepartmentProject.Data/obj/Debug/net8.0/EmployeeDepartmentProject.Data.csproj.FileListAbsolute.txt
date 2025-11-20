@@ -1,0 +1,14 @@
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\bin\Debug\net8.0\EmployeeDepartmentProject.Data.deps.json
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\bin\Debug\net8.0\EmployeeDepartmentProject.Data.runtimeconfig.json
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\bin\Debug\net8.0\EmployeeDepartmentProject.Data.dll
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\bin\Debug\net8.0\EmployeeDepartmentProject.Data.pdb
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.csproj.AssemblyReference.cache
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.AssemblyInfoInputs.cache
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.AssemblyInfo.cs
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.dll
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\refint\EmployeeDepartmentProject.Data.dll
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.pdb
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\EmployeeDepartmentProject.Data.genruntimeconfig.cache
+C:\Users\Student4\Desktop\EmployeeDepartmentProject\EmployeeDepartmentProject.Data\obj\Debug\net8.0\ref\EmployeeDepartmentProject.Data.dll
