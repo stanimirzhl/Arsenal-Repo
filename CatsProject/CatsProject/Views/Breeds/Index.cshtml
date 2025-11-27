@@ -1,0 +1,41 @@
+﻿@model IEnumerable<BreedViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="">Breed:</h1>
+<hr/>
+<p>
+    <a asp-action="Create" class="btn btn-warning">Add Breed:</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Do you want to delete?');">
+                        <button class="btn btn-danger" type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

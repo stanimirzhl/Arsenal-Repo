@@ -1,0 +1,14 @@
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\bin\Debug\net8.0\CatsProject.Data.deps.json
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\bin\Debug\net8.0\CatsProject.Data.runtimeconfig.json
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\bin\Debug\net8.0\CatsProject.Data.dll
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\bin\Debug\net8.0\CatsProject.Data.pdb
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.csproj.AssemblyReference.cache
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.AssemblyInfoInputs.cache
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.AssemblyInfo.cs
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.dll
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\refint\CatsProject.Data.dll
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.pdb
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\CatsProject.Data.genruntimeconfig.cache
+C:\Users\Student4\Desktop\CatsProject\CatsProject.Data\obj\Debug\net8.0\ref\CatsProject.Data.dll

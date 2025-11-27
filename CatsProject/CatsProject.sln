@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatsProject", "CatsProject\CatsProject.csproj", "{754DD151-95BA-46B2-808E-6DF76E8CAD32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatsProject.Data", "CatsProject.Data\CatsProject.Data.csproj", "{51D7401C-1D80-4499-91B2-DD9E0FAC733B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754DD151-95BA-46B2-808E-6DF76E8CAD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754DD151-95BA-46B2-808E-6DF76E8CAD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754DD151-95BA-46B2-808E-6DF76E8CAD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754DD151-95BA-46B2-808E-6DF76E8CAD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D7401C-1D80-4499-91B2-DD9E0FAC733B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D7401C-1D80-4499-91B2-DD9E0FAC733B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D7401C-1D80-4499-91B2-DD9E0FAC733B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D7401C-1D80-4499-91B2-DD9E0FAC733B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FFB9002-0C7F-447A-9813-809FC1441986}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student4\\Desktop\\CatsProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\cats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\cats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\breeds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\breeds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\controllers\\catscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\controllers\\catscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D7401C-1D80-4499-91B2-DD9E0FAC733B}|CatsProject.Data\\CatsProject.Data.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject.data\\models\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D7401C-1D80-4499-91B2-DD9E0FAC733B}|CatsProject.Data\\CatsProject.Data.csproj|solutionrelative:catsproject.data\\models\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\models\\catviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\models\\catviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\cats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\cats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\controllers\\breedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\controllers\\breedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\breeds\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\breeds\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\cats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\cats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\breeds\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\breeds\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject\\models\\breedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754DD151-95BA-46B2-808E-6DF76E8CAD32}|CatsProject\\CatsProject.csproj|solutionrelative:catsproject\\models\\breedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D7401C-1D80-4499-91B2-DD9E0FAC733B}|CatsProject.Data\\CatsProject.Data.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject.data\\catsprojectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D7401C-1D80-4499-91B2-DD9E0FAC733B}|CatsProject.Data\\CatsProject.Data.csproj|solutionrelative:catsproject.data\\catsprojectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D7401C-1D80-4499-91B2-DD9E0FAC733B}|CatsProject.Data\\CatsProject.Data.csproj|c:\\users\\student4\\desktop\\catsproject\\catsproject.data\\models\\breed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D7401C-1D80-4499-91B2-DD9E0FAC733B}|CatsProject.Data\\CatsProject.Data.csproj|solutionrelative:catsproject.data\\models\\breed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Breeds\\Index.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Breeds\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Breeds\\Index.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Breeds\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T09:44:19.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Cats\\Index.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Cats\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Cats\\Index.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Cats\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T09:21:27.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Cats\\Create.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Cats\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Cats\\Create.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Cats\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T09:20:07.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Cats\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Cats\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Cats\\Edit.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Cats\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T09:14:04.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Controllers\\CatsController.cs",
+              "RelativeDocumentMoniker": "CatsProject\\Controllers\\CatsController.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Controllers\\CatsController.cs",
+              "RelativeToolTip": "CatsProject\\Controllers\\CatsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T08:51:59.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Breeds\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Breeds\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Breeds\\Edit.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Breeds\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T08:05:20.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Breeds\\Create.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Breeds\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Breeds\\Create.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Breeds\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T08:05:00.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BreedsController.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Controllers\\BreedsController.cs",
+              "RelativeDocumentMoniker": "CatsProject\\Controllers\\BreedsController.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Controllers\\BreedsController.cs",
+              "RelativeToolTip": "CatsProject\\Controllers\\BreedsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:55:36.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Models\\CatViewModel.cs",
+              "RelativeDocumentMoniker": "CatsProject\\Models\\CatViewModel.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Models\\CatViewModel.cs",
+              "RelativeToolTip": "CatsProject\\Models\\CatViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:04:17.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BreedViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Models\\BreedViewModel.cs",
+              "RelativeDocumentMoniker": "CatsProject\\Models\\BreedViewModel.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Models\\BreedViewModel.cs",
+              "RelativeToolTip": "CatsProject\\Models\\BreedViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:03:51.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CatsProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject.Data\\CatsProjectDbContext.cs",
+              "RelativeDocumentMoniker": "CatsProject.Data\\CatsProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject.Data\\CatsProjectDbContext.cs",
+              "RelativeToolTip": "CatsProject.Data\\CatsProjectDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:40:08.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject.Data\\Models\\Cat.cs",
+              "RelativeDocumentMoniker": "CatsProject.Data\\Models\\Cat.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject.Data\\Models\\Cat.cs",
+              "RelativeToolTip": "CatsProject.Data\\Models\\Cat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:37:21.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Breed.cs",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject.Data\\Models\\Breed.cs",
+              "RelativeDocumentMoniker": "CatsProject.Data\\Models\\Breed.cs",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject.Data\\Models\\Breed.cs",
+              "RelativeToolTip": "CatsProject.Data\\Models\\Breed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:33:38.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T11:59:28.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CatsProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\CatsProject\\CatsProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CatsProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T11:37:40.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
