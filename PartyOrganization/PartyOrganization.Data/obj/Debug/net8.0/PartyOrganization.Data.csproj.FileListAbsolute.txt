@@ -1,0 +1,14 @@
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\bin\Debug\net8.0\PartyOrganization.Data.deps.json
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\bin\Debug\net8.0\PartyOrganization.Data.runtimeconfig.json
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\bin\Debug\net8.0\PartyOrganization.Data.dll
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\bin\Debug\net8.0\PartyOrganization.Data.pdb
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.csproj.AssemblyReference.cache
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.AssemblyInfoInputs.cache
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.AssemblyInfo.cs
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.csproj.CoreCompileInputs.cache
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.dll
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\refint\PartyOrganization.Data.dll
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.pdb
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\PartyOrganization.Data.genruntimeconfig.cache
+C:\Users\Student4\Desktop\PartyOrganization\PartyOrganization.Data\obj\Debug\net8.0\ref\PartyOrganization.Data.dll
