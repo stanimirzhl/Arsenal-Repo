@@ -1,0 +1,117 @@
+﻿@model IEnumerable<GiftViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+
+    int categoryCount = ViewBag.CategoryCount ?? 0;
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="fw-bold">Подаръци</h2>
+        <a class="btn btn-primary" asp-action="Create" onclick="return checkCategories();">
+            Създай нов подарък
+        </a>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="card shadow-sm">
+            <div class="card-body p-0">
+
+                <table class="table table-hover table-striped mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Име</th>
+                            <th>Описание</th>
+                            <th>Снимка</th>
+                            <th>Име на категория</th>
+                            <th>Изтеглен</th>
+                            <th style="width: 180px;">Управление</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+
+                                <td class="text-truncate" style="max-width: 250px;">
+                                    @item.Description
+                                </td>
+
+                                <td>
+                                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                    {
+                                        <img src="@item.ImageUrl"
+                                             alt="@item.Name"
+                                             class="img-thumbnail"
+                                             style="width: 60px; height: 60px; object-fit: cover;" />
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Няма снимка</span>
+                                    }
+                                </td>
+
+                                <td>@item.CategoryName</td>
+
+                                <td>
+                                    @if (item.IsTaken)
+                                    {
+                                        <span class="badge bg-danger">Взет</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success">Свободен</span>
+                                    }
+                                </td>
+
+                                <td>
+                                    <div class="d-flex">
+                                        <a class="btn btn-warning btn-sm me-2"
+                                           asp-action="Edit" asp-route-id="@item.Id">Редактирай</a>
+
+                                        <form method="post" asp-action="Delete" asp-route-id="@item.Id" class="m-0">
+                                            <button type="submit" class="btn btn-danger btn-sm">
+                                                Изтрий
+                                            </button>
+                                        </form>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="alert alert-warning mb-0 text-center">
+                    Няма добавени подаръци
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+<script>
+    function checkCategories() {
+        var categoryCount = @categoryCount;
+
+        if (categoryCount === 0) {
+            alert("Първо трябва да добавите категория, преди да създадете подарък.");
+            return false;
+        }
+
+        return true; 
+    }
+</script>

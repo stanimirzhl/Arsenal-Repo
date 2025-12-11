@@ -1,0 +1,151 @@
+﻿<style>
+    body {
+        background-color: #b30000;
+        background-image: radial-gradient(white 1px, transparent 1px), radial-gradient(white 1px, transparent 1px);
+        background-size: 40px 40px, 60px 60px;
+        background-position: 0 0, 20px 20px;
+        overflow-x: hidden;
+    }
+
+    .gift-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        margin-top: 140px;
+    }
+
+    .gift-btn-left,
+    .gift-btn-right {
+        font-size: 18px;
+        padding: 12px 24px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255,255,255,0.3);
+        transition: 0.3s;
+    }
+
+        .gift-btn-left:hover,
+        .gift-btn-right:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 14px rgba(255,255,255,0.6);
+        }
+
+    .gift-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .gift {
+        width: 120px;
+        height: 120px;
+        background: #ff0000;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+        animation: bounce 2.5s infinite ease-in-out;
+    }
+
+        .gift::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 22px;
+            height: 100%;
+            background: #ffffff;
+        }
+
+        .gift::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+            height: 22px;
+            background: #ffffff;
+        }
+
+        .gift::after,
+        .gift::before {
+        }
+
+    .gift-bow {
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(255,255,255,0.6);
+    }
+
+    .christmas-alert {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .alert-content {
+        background: rgba(255, 215, 0, 0.2); 
+        border: 2px solid gold;
+        color: white;
+        padding: 15px 25px;
+        font-size: 22px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(3px);
+        animation: pulse 1.8s infinite;
+    }
+</style>
+
+<script>
+    function createSnowflake() {
+        const snowflake = document.createElement("div");
+        snowflake.classList.add("snowflake");
+        snowflake.textContent = "❄";
+        snowflake.style.left = Math.random() * 100 + "vw";
+        snowflake.style.fontSize = (Math.random() * 12 + 10) + "px";
+        snowflake.style.animationDuration = (Math.random() * 4 + 4) + "s";
+        document.body.appendChild(snowflake);
+        setTimeout(() => { snowflake.remove(); }, 8000);
+    }
+    setInterval(createSnowflake, 150);
+</script>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="christmas-alert">
+        <div class="alert-content">
+            🎅 @TempData["ErrorMessage"] 🎄
+        </div>
+    </div>
+}
+
+<div class="gift-row">
+
+    <a class="btn btn-primary gift-btn-left"
+       asp-controller="Gift" asp-action="Create">
+        ➕ Добави подарък!
+    </a>
+
+    <div class="gift-container">
+        <div class="gift"><div class="gift-bow"></div></div>
+        <div class="gift"><div class="gift-bow"></div></div>
+        <div class="gift"><div class="gift-bow"></div></div>
+    </div>
+
+    <a class="btn btn-success gift-btn-right"
+       asp-controller="Gift" asp-action="Bekommen">
+        🎁 Изтегли подарък!
+    </a>
+
+</div>
