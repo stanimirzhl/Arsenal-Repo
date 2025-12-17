@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Givers.Data;
 using Givers.Data.Models;
 using PresentGivers.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PresentGivers.Controllers
 {
@@ -20,12 +21,13 @@ namespace PresentGivers.Controllers
             this.context = context;
         }
 
+        [Authorize]
 		public async Task<IActionResult> Bekommen()
 		{
-			var gifts = context.Gifts
+			var gifts = await context.Gifts
 				.Include(g => g.Category)
 				.Where(g => g.IsTaken == false) 
-				.ToList();
+				.ToListAsync();
 
 			if (!gifts.Any())
 			{
@@ -54,13 +56,32 @@ namespace PresentGivers.Controllers
 		}
 
 
-		public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index(int? categoryId = null)
         {
-            var presentDbContext = context.Gifts.Include(g => g.Category);
+            var presentDbContext = await context.Gifts.Include(g => g.Category).ToListAsync();
 
             ViewBag.CategoryCount = context.Categories.Count();
 
-            return View(await presentDbContext.Select(x => new GiftViewModel
+			ViewBag.Categories = new SelectList(await context.Categories.ToListAsync(), "Id", "Name", categoryId);
+
+			if (categoryId.HasValue)
+            {
+                presentDbContext = presentDbContext.Where(x => x.CategoryId == categoryId).ToList();
+
+                var category = await context.Categories.FindAsync(categoryId.Value);
+
+                if(category is null)
+                {
+                    return NotFound();
+                }
+
+                TempData["Category"] = $"Подаръци с категория {category.Name}";
+
+               //ViewBag.Categories = new SelectList(await context.Categories.ToListAsync(), "Id", "Name");
+            }
+
+
+            return View(presentDbContext.Select(x => new GiftViewModel
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -69,7 +90,7 @@ namespace PresentGivers.Controllers
                 CategoryName = x.Category.Name,
                 IsTaken = x.IsTaken
 
-            }).ToListAsync());
+            }).ToList());
         }
 
         public IActionResult Create()

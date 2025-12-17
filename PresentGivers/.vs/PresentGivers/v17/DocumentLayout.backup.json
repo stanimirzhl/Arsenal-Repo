@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Student4\\Desktop\\PresentGivers\\",
+  "WorkspaceRootPath": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\views\\gift\\bekommen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\views\\gift\\bekommen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\views\\gift\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\views\\gift\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\\u200E\\arsenal\\presentgivers\\presentgivers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\presentgivers\\presentgivers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\\u200E\\arsenal\\presentgivers\\presentgivers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|c:\\users\\student4\\desktop\\\u200E\\arsenal\\presentgivers\\presentgivers\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86B341CB-DA37-4A0A-89F5-6DDA4569BD18}|PresentGivers\\PresentGivers.csproj|solutionrelative:presentgivers\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,93 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Gift\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PresentGivers\\Views\\Gift\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Gift\\Edit.cshtml",
-              "RelativeToolTip": "PresentGivers\\Views\\Gift\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\PresentGivers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PresentGivers\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\PresentGivers\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "PresentGivers\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T11:37:58.639Z",
+              "WhenOpened": "2025-12-17T11:21:52.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bekommen.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Gift\\Bekommen.cshtml",
-              "RelativeDocumentMoniker": "PresentGivers\\Views\\Gift\\Bekommen.cshtml",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Gift\\Bekommen.cshtml",
-              "RelativeToolTip": "PresentGivers\\Views\\Gift\\Bekommen.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\PresentGivers\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PresentGivers\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\PresentGivers\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "PresentGivers\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T11:16:23.302Z",
+              "WhenOpened": "2025-12-17T11:21:18.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "PresentGivers\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "PresentGivers\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-11T11:04:29.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PresentGivers\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PresentGivers\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAGEAAAAsAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\PresentGivers\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PresentGivers\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Student4\\Desktop\\\u200E\\Arsenal\\PresentGivers\\PresentGivers\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PresentGivers\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T10:52:34.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GiftController.cs",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Controllers\\GiftController.cs",
-              "RelativeDocumentMoniker": "PresentGivers\\Controllers\\GiftController.cs",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Controllers\\GiftController.cs",
-              "RelativeToolTip": "PresentGivers\\Controllers\\GiftController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T08:45:13.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Program.cs",
-              "RelativeDocumentMoniker": "PresentGivers\\Program.cs",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Program.cs",
-              "RelativeToolTip": "PresentGivers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:31:20.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PresentGivers\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Student4\\Desktop\\PresentGivers\\PresentGivers\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PresentGivers\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-11T09:18:23.244Z"
+              "WhenOpened": "2025-12-17T09:35:55.535Z",
+              "EditorCaption": ""
             }
           ]
         }

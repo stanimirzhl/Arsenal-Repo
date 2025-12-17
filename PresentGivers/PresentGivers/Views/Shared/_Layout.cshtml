@@ -49,5 +49,18 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        function createSnowflake() {
+            const snowflake = document.createElement("div");
+            snowflake.classList.add("snowflake");
+            snowflake.textContent = "❄";
+            snowflake.style.left = Math.random() * 100 + "vw";
+            snowflake.style.fontSize = (Math.random() * 12 + 10) + "px";
+            snowflake.style.animationDuration = (Math.random() * 4 + 4) + "s";
+            document.body.appendChild(snowflake);
+            setTimeout(() => { snowflake.remove(); }, 8000);
+        }
+        setInterval(createSnowflake, 150);
+    </script>
 </body>
 </html>

@@ -6,7 +6,49 @@
     int categoryCount = ViewBag.CategoryCount ?? 0;
 }
 
+
+<style>
+    .christmas-alert {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .alert-content {
+        background: rgba(255, 215, 0, 0.2);
+        border: 2px solid gold;
+        color: black;
+        padding: 15px 25px;
+        font-size: 22px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(3px);
+        animation: pulse 1.8s infinite;
+    }
+</style>
+
+@if (TempData["Category"] != null)
+{
+    <div class="christmas-alert">
+        <div class="alert-content">
+            @TempData["Category"]
+        </div>
+    </div>
+}
+
 <div class="container mt-4">
+    <form asp-action="Index" method="get">
+        <div class="row pb-3 align-items-end">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="categoryId">Изберете категория:</label>
+                    <select id="categoryId" name="categoryId" class="form-control" asp-items="ViewBag.Categories" onchange="this.form.submit()">
+                        <option value="">Всички категории</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
 
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 class="fw-bold">Подаръци</h2>
@@ -112,6 +154,6 @@
             return false;
         }
 
-        return true; 
+        return true;
     }
 </script>

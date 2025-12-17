@@ -107,25 +107,29 @@
     }
 </style>
 
-<script>
-    function createSnowflake() {
-        const snowflake = document.createElement("div");
-        snowflake.classList.add("snowflake");
-        snowflake.textContent = "❄";
-        snowflake.style.left = Math.random() * 100 + "vw";
-        snowflake.style.fontSize = (Math.random() * 12 + 10) + "px";
-        snowflake.style.animationDuration = (Math.random() * 4 + 4) + "s";
-        document.body.appendChild(snowflake);
-        setTimeout(() => { snowflake.remove(); }, 8000);
-    }
-    setInterval(createSnowflake, 150);
-</script>
-
 @if (TempData["ErrorMessage"] != null)
 {
     <div class="christmas-alert">
         <div class="alert-content">
             🎅 @TempData["ErrorMessage"] 🎄
+        </div>
+    </div>
+}
+
+@if(TempData["Login"] != null)
+{
+    <div class="christmas-alert">
+        <div class="alert-content">
+            🎅 @TempData["Login"] 🎄
+        </div>
+    </div>
+}
+
+@if (TempData["Register"] != null)
+{
+    <div class="christmas-alert">
+        <div class="alert-content">
+            🎅 @TempData["Register"] 🎄
         </div>
     </div>
 }

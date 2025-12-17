@@ -1,9 +1,10 @@
 ﻿using Givers.Data.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Givers.Data
 {
-	public class PresentDbContext : DbContext
+	public class PresentDbContext : IdentityDbContext<User>
 	{
 		public PresentDbContext(DbContextOptions<PresentDbContext> options) : base (options)
 		{
